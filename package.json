@@ -22,7 +22,9 @@
   "peerDependecies": {
     "karma": ">=0.9"
   },
-  "author": "geksilla",
+  "author": {
+    "name": "geksilla"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/geksilla/karma-ember-precompiler-brunch/issues"
