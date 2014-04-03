@@ -1,0 +1,2 @@
+karma-ember-precompiler-brunch
+===
