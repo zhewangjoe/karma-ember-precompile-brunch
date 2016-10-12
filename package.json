@@ -1,13 +1,13 @@
 {
-  "name": "karma-ember-precompiler-brunch",
-  "version": "0.0.2",
+  "name": "test-karma-ember-precompile-brunch",
+  "version": "0.0.1",
   "description": "Handlebars precompile preprocessor for karma based on ember-precompiler-brunch plugin",
   "main": "index.js",
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geksilla/karma-ember-precompiler-brunch.git"
+    "url": "https://github.com/zhewangjoe/karma-ember-precompiler-brunch"
   },
   "keywords": [
     "karma-preprocessor",
@@ -17,16 +17,16 @@
     "brunch"
   ],
   "dependencies": {
-    "jsdom": "0.6.x"
+    "jsdom": "^9.0.0"
   },
   "peerDependecies": {
     "karma": ">=0.9"
   },
   "author": {
-    "name": "geksilla"
+    "name": "zhewangjoe"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geksilla/karma-ember-precompiler-brunch/issues"
+    "url": "https://github.com/zhewangjoe/karma-ember-precompiler-brunch/issues"
   }
 }
