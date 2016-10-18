@@ -1,5 +1,5 @@
-karma-ember-precompiler-brunch
-===
+karma-ember-precompile-brunch
+=============================
 
 Usage
 ===
@@ -9,11 +9,11 @@ Usage
 
     // Include to plugins list
     plugins: [
-      'karma-ember-precompiler-brunch'
+      'karma-ember-precompile-brunch'
     ],
 
     // Create configuration
-    emberPrecompilerBrunchPreprocessor: {
+    emberPrecompileBrunchPreprocessor: {
       jqueryPath: 'path/to/jquery.js',
       handlebarsPath: 'path/to/handlebars.js'
       emberPath: 'path/to/ember.js',
@@ -21,6 +21,6 @@ Usage
 
     // Use it! :)
     preprocessors: {
-      '**/*.hbs': 'ember-precompiler-brunch'
+      '**/*.hbs': 'ember-precompile-brunch'
     }
 ```

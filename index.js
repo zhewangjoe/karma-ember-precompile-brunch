@@ -9,7 +9,7 @@ var fs = require('fs');
 */
 
 var createEmberBrunchPrecompilePreprocessor = function(config, logger) {
-  var log  = logger.create('preprocessor:ember-precompiler-brunch');
+  var log  = logger.create('preprocessor:ember-precompile-brunch');
   var doc = null;
   if (!config || !config.jqueryPath || !config.emberPath || !config.handlebarsPath) {
     log.error('You should specify all necessary configuration properties: `jqueryPath`, `handlebarsPath`, `emberPath`');
@@ -34,8 +34,8 @@ var createEmberBrunchPrecompilePreprocessor = function(config, logger) {
   }
 }
 
-createEmberBrunchPrecompilePreprocessor.$inject = ['config.emberPrecompilerBrunchPreprocessor', 'logger']
+createEmberBrunchPrecompilePreprocessor.$inject = ['config.emberPrecompileBrunchPreprocessor', 'logger']
 
 module.exports = {
-  'preprocessor:ember-precompiler-brunch': ['factory', createEmberBrunchPrecompilePreprocessor]
+  'preprocessor:ember-precompile-brunch': ['factory', createEmberBrunchPrecompilePreprocessor]
 }
